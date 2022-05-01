@@ -11,7 +11,7 @@ import (
 func main() {
 	args := os.Args[1:]
 
-	if len(args) == 0 || len(args) == 1 {
+	if len(args) == 0 {
 		fmt.Println("Você deve passar como argumento uma palavra ou frase para traduzir. \n\nExemplo: 'minerar Nice to meet you'")
 		os.Exit(0)
 	}
