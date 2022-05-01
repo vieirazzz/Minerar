@@ -19,7 +19,7 @@ func main() {
 	frase := strings.Join(args, "+")
 
 	// Google Search
-	// webbrowser.Open("https://www.google.com.br/search?q=" + frase)
+	webbrowser.Open("https://www.google.com.br/search?q=" + frase)
 	// Google Images
 	webbrowser.Open("https://www.google.com/search?tbm=isch&q=" + frase)
 	// Tatoeba
